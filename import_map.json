@@ -1,0 +1,6 @@
+{
+    "imports": {
+       "opine/": "https://deno.land/x/opine@1.7.2/",
+       "@/": "./src/"
+    }
+ }
