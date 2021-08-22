@@ -1,7 +1,7 @@
 import { ok, badRequest } from "@/presentation/helpers/index.ts"
-import { HttpRequest, HttpResponse, HttpController, IValidator } from "@/presentation/contracts/index.ts"
+import { HttpRequest, HttpResponse, HttpController, IValidator } from "@/presentation/contracts/mod.ts"
 
-import { Sum } from '@/domain/use-case/index.ts'
+import { Sum } from '@/domain/use-case/mod.ts'
 
 export class SumController implements HttpController {
   constructor(private readonly sum: Sum, private readonly validator: IValidator) { }

@@ -1,5 +1,5 @@
 import { opine, json } from "opine/mod.ts";
-import { setupRoutes } from '@/main/config/index.ts'
+import { setupRoutes } from '@/main/config/mod.ts'
 
 const makeOpine = () => {
   const app = opine()

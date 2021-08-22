@@ -1,5 +1,5 @@
-import { DivideController } from '@/presentation/controllers/index.ts'
-import { DivideAction } from '@/use-case/calculations/index.ts'
+import { DivideController } from '@/presentation/controllers/mod.ts'
+import { DivideAction } from '@/use-case/calculations/mod.ts'
 
 import { DummyValidator } from '@/main/adapters/dummy-validator.ts'
 

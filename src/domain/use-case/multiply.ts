@@ -1,4 +1,4 @@
-import { MultiplyDTO } from '@/domain/dtos/index.ts'
+import { MultiplyDTO } from '@/domain/dtos/mod.ts'
 
 export interface Multiply {
   calculate(params: Multiply.Params): Multiply.Result

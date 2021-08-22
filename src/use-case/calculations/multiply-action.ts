@@ -1,4 +1,4 @@
-import { Multiply } from '@/domain/use-case/index.ts'
+import { Multiply } from '@/domain/use-case/mod.ts'
 
 export class MultiplyAction implements Multiply {
   calculate(params: Multiply.Params): Multiply.Result {

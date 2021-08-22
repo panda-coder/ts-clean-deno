@@ -1,4 +1,4 @@
-import { Application } from './config/index.ts'
+import { Application } from './config/mod.ts'
 
 (async () => {
   Application()

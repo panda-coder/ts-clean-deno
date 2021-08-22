@@ -1,7 +1,7 @@
-import { ok, badRequest } from "@/presentation/helpers/index.ts"
-import { HttpRequest, HttpResponse, HttpController, IValidator } from "@/presentation/contracts/index.ts"
+import { ok, badRequest } from "@/presentation/helpers/mod.ts"
+import { HttpRequest, HttpResponse, HttpController, IValidator } from "@/presentation/contracts/mod.ts"
 
-import { Divide } from '@/domain/use-case/index.ts'
+import { Divide } from '@/domain/use-case/mod.ts'
 
 export class DivideController implements HttpController {
   constructor(private readonly divide: Divide, private readonly validator: IValidator) { }

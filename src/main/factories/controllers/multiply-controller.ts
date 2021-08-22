@@ -1,5 +1,5 @@
-import { MultiplyController } from '@/presentation/controllers/index.ts'
-import { MultiplyAction } from '@/use-case/calculations/index.ts'
+import { MultiplyController } from '@/presentation/controllers/mod.ts'
+import { MultiplyAction } from '@/use-case/calculations/mod.ts'
 
 import { DummyValidator } from '@/main/adapters/dummy-validator.ts'
 

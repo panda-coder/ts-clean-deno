@@ -1,4 +1,4 @@
-import { DivideDTO } from '@/domain/dtos/index.ts'
+import { DivideDTO } from '@/domain/dtos/mod.ts'
 
 export interface Divide {
   calculate(params: Divide.Params): Divide.Result

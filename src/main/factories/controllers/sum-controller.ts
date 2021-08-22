@@ -1,5 +1,5 @@
-import { SumController } from '@/presentation/controllers/index.ts'
-import { SumAction } from '@/use-case/calculations/index.ts'
+import { SumController } from '@/presentation/controllers/mod.ts'
+import { SumAction } from '@/use-case/calculations/mod.ts'
 
 import { DummyValidator } from '@/main/adapters/dummy-validator.ts'
 

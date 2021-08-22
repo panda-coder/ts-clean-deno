@@ -1,4 +1,4 @@
-import { SubtractDTO } from '@/domain/dtos/index.ts'
+import { SubtractDTO } from '@/domain/dtos/mod.ts'
 
 export interface Subtract {
   calculate(params: Subtract.Params): Subtract.Result

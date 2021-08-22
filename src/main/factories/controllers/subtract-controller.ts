@@ -1,5 +1,5 @@
-import { SubtractController } from '@/presentation/controllers/index.ts'
-import { SubtractAction } from '@/use-case/calculations/index.ts'
+import { SubtractController } from '@/presentation/controllers/mod.ts'
+import { SubtractAction } from '@/use-case/calculations/mod.ts'
 
 import { DummyValidator } from '@/main/adapters/dummy-validator.ts'
 

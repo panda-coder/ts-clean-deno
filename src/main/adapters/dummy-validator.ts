@@ -1,4 +1,4 @@
-import { IValidator } from '@/presentation/contracts/index.ts'
+import { IValidator } from '@/presentation/contracts/mod.ts'
 
 export class DummyValidator implements IValidator {
   validate(_data: any): Promise<boolean> {

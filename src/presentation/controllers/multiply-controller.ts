@@ -1,7 +1,7 @@
-import { ok, badRequest } from "@/presentation/helpers/index.ts"
-import { HttpRequest, HttpResponse, HttpController, IValidator } from "@/presentation/contracts/index.ts"
+import { ok, badRequest } from "@/presentation/helpers/mod.ts"
+import { HttpRequest, HttpResponse, HttpController, IValidator } from "@/presentation/contracts/mod.ts"
 
-import { Multiply } from '@/domain/use-case/index.ts'
+import { Multiply } from '@/domain/use-case/mod.ts'
 
 export class MultiplyController implements HttpController {
   constructor(private readonly multiply: Multiply, private readonly validator: IValidator) { }

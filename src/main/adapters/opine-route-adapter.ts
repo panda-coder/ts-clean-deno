@@ -1,4 +1,4 @@
-import { HttpController } from '@/presentation/contracts/index.ts'
+import { HttpController } from '@/presentation/contracts/mod.ts'
 
 
 const SERVER_ERROR = {

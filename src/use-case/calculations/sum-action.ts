@@ -1,4 +1,4 @@
-import { Sum } from '@/domain/use-case/index.ts'
+import { Sum } from '@/domain/use-case/mod.ts'
 
 export class SumAction implements Sum {
   calculate(params: Sum.Params): Sum.Result {

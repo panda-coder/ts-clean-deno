@@ -1,5 +1,5 @@
-import { env } from './index.ts'
-import { appFactory } from '@/main/factories/index.ts'
+import { env } from './mod.ts'
+import { appFactory } from '@/main/factories/mod.ts'
 
 const Application = () => {
 

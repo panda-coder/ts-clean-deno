@@ -1,7 +1,7 @@
-import { ok, badRequest } from "@/presentation/helpers/index.ts"
-import { HttpRequest, HttpResponse, HttpController, IValidator } from "@/presentation/contracts/index.ts"
+import { ok, badRequest } from "@/presentation/helpers/mod.ts"
+import { HttpRequest, HttpResponse, HttpController, IValidator } from "@/presentation/contracts/mod.ts"
 
-import { Subtract } from '@/domain/use-case/index.ts'
+import { Subtract } from '@/domain/use-case/mod.ts'
 
 export class SubtractController implements HttpController {
   constructor(private readonly subtract: Subtract, private readonly validator: IValidator) { }
